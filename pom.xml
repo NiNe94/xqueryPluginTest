@@ -14,8 +14,6 @@
 
 
     <build>
-        <pluginManagement>
-            <plugins>
              <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
                   <artifactId>maven-surefire-plugin</artifactId>
@@ -24,9 +22,8 @@
                       <testFailureIgnore>true</testFailureIgnore>
                   </configuration>
              </plugin>
-         </plugins>
-      </pluginManagement>
     </build>
+
      <pluginRepositories>
         <pluginRepository>
             <id>xpand-plugins</id>
@@ -42,6 +39,7 @@
 	<sonar.language>xquery</sonar.language>
 	<sonar.version>0.0.1-SNAPSHOT</sonar.version>
 	<sonar.sourceEncoding>utf-8</sonar.sourceEncoding>
+	<xray.projectKey>XQUER</xray.projectKey>
      </properties>
 
 </project>
