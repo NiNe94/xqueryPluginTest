@@ -17,7 +17,6 @@
 	<sonar.language>xquery</sonar.language>
 	<sonar.version>0.0.1-SNAPSHOT</sonar.version>
 	<sonar.sourceEncoding>utf-8</sonar.sourceEncoding>
-	<xray.projectKey>XQUER</xray.projectKey>
      </properties>
 
 </project>
