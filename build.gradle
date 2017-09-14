@@ -6,7 +6,7 @@ plugins {
 apply plugin: 'org.sonarqube'
 
 
-sonarqube {
+sonarrunner {
     properties {
         property "sonar.sources", "./src/main"
 	property "sonar.sourceEncoding", "UTF-8"
